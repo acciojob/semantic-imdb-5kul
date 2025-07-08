@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #e6e6e6;
+        }
+        header, nav, summary, section, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            background-color: #2a2a2a;
+            border-radius: 10px;
+        }
+        nav a {
+            color: #00acee;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding-top: 10px;
+        }
+        footer {
+            text-align: center;
+            font-style: italic;
+        }
